@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navb from '../Navb';
 import Character from '../../pages/Character';
+import Home from '../../pages/Home';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             <div>Contact</div>
           </Route>
           <Route path="/">
-            <div>KEKPA</div>
+            <Home />
           </Route>
         </Switch>
         {/* link stuff here to load different components */}

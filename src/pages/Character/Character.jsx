@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from './Character.style';
+// import * as S from './Character.style';
 
 import Slider from './Slider';
 

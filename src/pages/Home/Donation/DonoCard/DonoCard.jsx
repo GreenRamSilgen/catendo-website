@@ -7,17 +7,19 @@ function DonoCard({ price, tierName }) {
   return (
     <S.Card>
       <S.Tophalf>
+        <S.TierName>{tierName}</S.TierName>
         <S.Price>{price}</S.Price>
       </S.Tophalf>
       <S.Bottomhalf>
-        <S.TierName>{tierName}</S.TierName>
+        <S.JoinBtn> Subscribe</S.JoinBtn>
       </S.Bottomhalf>
     </S.Card>
   );
 }
 
-DonoCard.PropTypes = {
-  price: PropTypes.string,
-  tierName: PropTypes.string,
-};
 export default DonoCard;
+
+DonoCard.propTypes = {
+  price: PropTypes.string.isRequired,
+  tierName: PropTypes.string.isRequired,
+};

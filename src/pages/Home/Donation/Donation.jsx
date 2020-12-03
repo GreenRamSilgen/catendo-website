@@ -10,9 +10,9 @@ function Donation() {
         <S.Title>Become a Patron!</S.Title>
       </S.Titleholder>
       <S.Cardholder>
-        <DonoCard price="$25" tierName="Kitten" />
-        <DonoCard price="$50" tierName="Cat" />
-        <DonoCard price="$100" tierName="Lion" />
+        <DonoCard price="$25" tierName="Kitten Tier" />
+        <DonoCard price="$50" tierName="Cat Tier" />
+        <DonoCard price="$100" tierName="Lion Tier" />
       </S.Cardholder>
     </S.Block>
   );

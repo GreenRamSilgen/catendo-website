@@ -11,6 +11,7 @@ flex-direction: column;
 box-shadow: 0px 0px 10px grey;
 
 @media(max-width: 1000px){
+    height: 100vh;
     width: 100%;
 }
 `;

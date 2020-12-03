@@ -19,6 +19,7 @@ width: 100%;
 height: 80%;
 border-radius: 10px 10px 0px 0px;
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 @media(max-width: 1000px){
@@ -30,9 +31,15 @@ align-items: center;
 export const Price = styled.h1`
 font-size: 50px;
 `;
+export const TierName = styled.h1`
+font-size: 50px;
+`;
 
 
 export const Bottomhalf = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
 background-color: white;
 width: 100%;
 height: 20%;
@@ -45,4 +52,20 @@ border-radius:  0px 0px 10px 10px;
     border-radius: 0px 10px 10px 0px;
 }
 `;
-export const TierName = styled.h1``;
+export const JoinBtn = styled.button`
+width: 80%;
+height: 80%;
+
+border-radius: 10px;
+background-color: transparent;
+border-color: rgb(27 138 217);
+
+font-size: 25px;
+color: black;
+
+:hover{
+    cursor: pointer;
+    background-color: rgb(27 138 217);
+    color: white;
+}
+`;

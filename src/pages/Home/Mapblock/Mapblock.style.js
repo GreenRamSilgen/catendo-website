@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Block = styled.div`
 color: whitesmoke;
 margin: auto;
-height: ${props => props.mapZoom ? 'fit-content' : '100vh'};
+min-height: 100vh;
+/* height: ${props => props.mapZoom ? 'fit-content' : '100vh'}; */
 width: 100%;
 display: flex;  
 justify-content: space-between;

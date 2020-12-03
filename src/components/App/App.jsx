@@ -24,8 +24,8 @@ function App() {
               <h1>K</h1>
             </div>
           </Route>
-          <Route path="/contact">
-            <div>Contact</div>
+          <Route path="/about">
+            <div> ABOUT </div>
           </Route>
           <Route path="/">
             <Home />

@@ -4,14 +4,14 @@ export const Block = styled.div`
 color: black;
 background-color: #ececec;
 margin: auto;
-height: 70vh;
+height: 100vh;
 width: 100%;
 display: flex;
 flex-direction: column;
-box-shadow: 0px 0px 10px grey;
+box-shadow: 0px 0px 10px black;
 
 @media(max-width: 1000px){
-    height: 100vh;
+
     width: 100%;
 }
 `;

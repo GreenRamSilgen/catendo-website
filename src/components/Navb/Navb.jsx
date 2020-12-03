@@ -11,6 +11,7 @@ function Navb() {
   };
   zIdx[`z-index`] = `10`;
   zIdx[`justify-content`] = `space-between`;
+  zIdx[`box-shadow`] = `0px 0px 5px black`;
   return (
     <Navbar bg="dark" variant="dark" style={zIdx}>
       <Navbar.Brand href="/">

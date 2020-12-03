@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import * as S from './Advertise.style';
 
 import GameCover from '../../../assets/catTheftManual.jpg';
 
 function Advertise() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  });
+
   return (
     <S.Block>
-      <S.Hooker>
+      <S.Hooker data-aos="fade-right">
         <S.Title>Cat Theft Manual</S.Title>
         <S.AdImg src={GameCover} />
       </S.Hooker>
-      <S.Seller>
+      <S.Seller data-aos="fade-left">
         <h1>Coming Soon!</h1>
         <S.Pitch>
           Cat Theft Manual is game where you can go on an open world adventure.

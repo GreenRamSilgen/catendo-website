@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navb from '../Navb';
 import Character from '../../pages/Character';
 import Home from '../../pages/Home';
+import Team from '../../pages/Team';
 
 function App() {
   return (
@@ -17,12 +18,7 @@ function App() {
             <Character />
           </Route>
           <Route path="/team">
-            <div>
-              <h1>K</h1>
-              <h1>K</h1>
-              <h1>K</h1>
-              <h1>K</h1>
-            </div>
+            <Team />
           </Route>
           <Route path="/about">
             <div> ABOUT </div>

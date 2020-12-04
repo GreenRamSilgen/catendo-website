@@ -15,11 +15,11 @@ function Mapblock() {
           <S.CtmMap src={ctmMap} alt="map of cat theft auto" />
           {mapZoom ? (
             <S.ZoomBtn onClick={() => setMapZoom(false)}>
-              <i className="fas fa-chevron-left fa-2x" />
+              <i className="fas fa-search-minus" />
             </S.ZoomBtn>
           ) : (
             <S.ZoomBtn onClick={() => setMapZoom(true)}>
-              <i className="fas fa-chevron-right fa-2x" />
+              <i className="fas fa-search-plus" />
             </S.ZoomBtn>
           )}
         </S.MapSub>

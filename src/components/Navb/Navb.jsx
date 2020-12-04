@@ -6,7 +6,7 @@ import CatendoLogo from '../../assets/Cat.svg';
 function Navb() {
   const zIdx = {
     height: 75,
-    fontSize: 30,
+    fontSize: 20,
     display: `flex`,
   };
   zIdx[`z-index`] = `10`;

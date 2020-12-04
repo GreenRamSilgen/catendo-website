@@ -41,6 +41,7 @@ width: 100%;
 `;
 export const ZoomBtn = styled.div`
 position: relative;
+top: -48%;
 :hover{
     cursor: pointer;
     color: rgb(137 255 37);

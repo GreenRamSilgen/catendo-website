@@ -19,10 +19,12 @@ function Advertise() {
         <S.AdImg src={GameCover} />
       </S.Hooker>
       <S.Seller data-aos="fade-left">
-        <h1>Coming Soon!</h1>
         <S.Pitch>
+          <div>
+            <h1>Coming Soon!</h1>
+          </div>
           Cat Theft Manual is game where you can go on an open world adventure.
-          Befriend other feline fellows and explore the
+          Befriend other feline fellows and explore Catsburg.
         </S.Pitch>
       </S.Seller>
     </S.Block>

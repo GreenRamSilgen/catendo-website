@@ -7,6 +7,7 @@ import Navb from '../Navb';
 import Character from '../../pages/Character';
 import Home from '../../pages/Home';
 import Team from '../../pages/Team';
+import About from '../../pages/About';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Team />
           </Route>
           <Route path="/about">
-            <div> ABOUT </div>
+            <About />
           </Route>
           <Route path="/">
             <Home />

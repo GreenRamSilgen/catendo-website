@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
+// import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import PropTypes from 'prop-types';
-
 import * as S from './DonoCard.style';
 
 function DonoCard({ price, tierName }) {
@@ -17,7 +17,13 @@ function DonoCard({ price, tierName }) {
         <S.Price>{price}</S.Price>
       </S.Tophalf>
       <S.Bottomhalf>
-        <S.JoinBtn> Subscribe</S.JoinBtn>
+        <S.JoinBtn
+          onClick={() => {
+            window.location.href = '/payment';
+          }}
+        >
+          Subscribe
+        </S.JoinBtn>
       </S.Bottomhalf>
     </S.Card>
   );

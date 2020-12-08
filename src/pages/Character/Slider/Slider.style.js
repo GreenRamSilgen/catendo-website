@@ -21,6 +21,7 @@ min-width: 100%;
 height: 100%;
 transition: .5s;
 overflow: hidden;
+z-index: 0;
 `;
 
 
@@ -35,7 +36,7 @@ background: none;
 border: none;
 outline: none !important;
 transition: .5s;
-
+z-index: 1;
 :hover{
     background: rgb(0,0,0, 0.356);
     cursor: pointer;

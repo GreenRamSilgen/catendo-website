@@ -9,7 +9,7 @@ function Navb() {
     fontSize: 20,
     display: `flex`,
   };
-  zIdx[`z-index`] = `10`;
+  zIdx[`z-index`] = `2`;
   zIdx[`justify-content`] = `space-between`;
   zIdx[`box-shadow`] = `0px 0px 5px black`;
   return (

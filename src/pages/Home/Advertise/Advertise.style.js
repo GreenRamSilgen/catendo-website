@@ -43,8 +43,8 @@ width: 60%;
 }
 `;
 
-
+export const PitchCatch = styled.h1``;
 export const Pitch = styled.h4`
 width: 90%;
-margin: auto;
+text-align: justify;
 `;

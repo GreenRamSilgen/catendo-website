@@ -19,12 +19,16 @@ function Advertise() {
         <S.AdImg src={GameCover} />
       </S.Hooker>
       <S.Seller data-aos="fade-left">
+        <S.PitchCatch>Coming Soon!</S.PitchCatch>
         <S.Pitch>
-          <div>
-            <h1>Coming Soon!</h1>
-          </div>
-          Cat Theft Manual is game where you can go on an open world adventure.
-          Befriend other feline fellows and explore Catsburg.
+          Cat Theft Manual is an open world sandbox game where the player gets
+          to take control of a cat and do various activities around the map.
+          They can do missions for two main factions: the stray cats and the
+          home cats. The player is free to support either faction or they can
+          remain neutral and attempt to close the divide between the two
+          factions. Meet the cats that are allied to each faction as you go
+          through the story. Will you fight for the Home cats or the Stray cats?
+          The world is your litter-box.
         </S.Pitch>
       </S.Seller>
     </S.Block>

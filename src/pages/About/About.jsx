@@ -16,14 +16,15 @@ function About() {
         </S.Statement>
       </S.AboutSection>
       <S.AboutSection>
-        <S.Title>Upcoming Games</S.Title>
+        <S.Title>Upcoming Games: CTM</S.Title>
         <S.Statement>
-          Cat Theft Manual is an open world game that is currently in
-          development. It gives the player the freedom to do whatever they want
-          in Catsburg. Meet other cats make friends, help the home cats, stray
-          cats or both. The game is still in the design phase. Current iteration
-          can be viewed in the design document located at the bottom of our home
-          page.
+          Immerse yourself in the city of Catsburg and play as a cat. You have
+          just been taken into an Animal shelter after your mom was killed in
+          traffic. Escape the shelter with the help of a cat named Bella. As you
+          explore you learn about the conflict between the Home cats and the
+          Stray cats. The Home cats lead by Maximilan and the Stray cats lead by
+          Bruno. Do missions and gain respect for the faction of your choice.
+          Who will you side with? Will you walk the left, right or middle path?
         </S.Statement>
       </S.AboutSection>
     </S.Block>

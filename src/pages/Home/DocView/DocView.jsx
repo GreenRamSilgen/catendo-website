@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-import TempPdf from '../../../assets/Chapter7.pdf';
+import TempPdf from '../../../assets/DesignDoc.pdf';
 import * as S from './DocView.style';
 
 export default function DocView() {
@@ -17,7 +17,7 @@ export default function DocView() {
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
     },
-    overlay: { zIndex: 1000 },
+    overlay: { zIndex: 3 },
   };
 
   return (
@@ -41,15 +41,19 @@ export default function DocView() {
         contentLabel="PDF DISPLAY"
       >
         <Document file={TempPdf}>
-          <Page pageIndex={currPage} height={510} />
+          <Page pageIndex={currPage} height={540} />
           <S.LeftButton
             onClick={() => {
-              setCurrPage(currPage - 1);
+              setCurrPage(currPage - 1 < 0 ? 66 : currPage - 1);
             }}
           >
             &lt;
           </S.LeftButton>
-          <S.RightButton onClick={() => setCurrPage(currPage + 1)}>
+          <S.RightButton
+            onClick={() => {
+              setCurrPage(currPage + 1 > 66 ? 0 : currPage + 1);
+            }}
+          >
             &gt;
           </S.RightButton>
         </Document>

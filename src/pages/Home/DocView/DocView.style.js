@@ -41,6 +41,7 @@ export const TemplateBtn = styled.button`
     border: none;
     border-radius: 20%;
     background-color: rgb(70,70,70,0.5);
+    z-index: 10;
     :hover{
         background-color: rgb(77,77,77,0.8);
     }
